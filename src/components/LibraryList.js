@@ -12,7 +12,7 @@ class LibraryList extends Component {
     }
 
     renderRow(library) {
-        return <ListItem librabry={library} />;
+        return <ListItem library={library} />;
     }
 
     render() {
